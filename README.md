@@ -1,7 +1,54 @@
-Overview
+
+## Data Pipeline Desenvolvido usando Airflow, Python e Astronomer.
+</br>
+
+### Olá!!! 👋
+
+Esse repositório contém um projeto que desenvolvi para estudar a implementação do Apache Airflow e uso do Python em ETL. 
+
+</br>
+
+### Objetivo
+Implementar uma pipeline de dados usando apahce Airflow e Pythom. Para aprofundar os estudos em desenvolvimentos utilizando estas técnologias.
+
+* Os dados utilizados nesse projeto são do Cenipa, extraidos pelo Portal Brasileiro de Dados Abertos https://dados.gov.br/home.
+* No projeto a ingestão de dados é automática, por meio de um scraping efetuando o download dos arquivos usando a função retrieve() do Python.  
+* O tratamento dos dados é realizado usando Python com Pandas.
+
+* Estrurada uma infrasturura de pastas: raw, stage e consumer.
+
+* Utilizado o Astro (https://www.astronomer.io/) para gerenciamento e desenvolvimento no Airflow.
+
+
+### 🛠️ Tecnologias
+<a target="_blank"> 
+<img src="https://techstack-generator.vercel.app/python-icon.svg" alt="python" width="40" height="40"/> </a> <a target="_blank"> 
+<img src="https://techstack-generator.vercel.app/docker-icon.svg"alt="docker" width="40" height="40"/> </a> <a target="_blank"> 
+<img src="https://img.shields.io/badge/Apache%20Airflow-017CEE.svg?style=for-the-badge&logo=Apache-Airflow&logoColor=white"alt="aiflow" width="150" height="30"/> </a> <a target="_blank"> 
+<img src="https://img.shields.io/badge/Ubuntu-E95420.svg?style=for-the-badge&logo=Ubuntu&logoColor=white"alt="ubuntu" width="150" height="30"/> </a> 
+
+***
+</br>
+
+## 📌 Visualização
+</br>
+
+<img src="img/airflow.gif" width="600">
+
+### Graph
+
+<img src="img/airflow_pip.PNG" width="600">
+
+</br>
+
+
+Astro Overview
 ========
 
+
 Welcome to Astronomer! This project was generated after you ran 'astro dev init' using the Astronomer CLI. This readme describes the contents of the project, as well as how to run Apache Airflow on your local machine.
+##### (Astronomer documentation: https://docs.astronomer.io/)
+</br>
 
 Project Contents
 ================
