@@ -20,12 +20,6 @@ VAR_FILE_FAT = Variable.get("file_fat")
 VAR_FILE_REC = Variable.get("file_rec")
 
 
-# raw_path = '/usr/local/airflow/include/data/raw/'
-# consumer_path = '/home/elvis/projetos/projeto-cenipa-airflow/include/data/consumer/'
-#raw_path_teste = "~/projetos/projeto-cenipa-airflow/include/data/raw"
-#stage_path_teste = "~/projetos/projeto-cenipa-airflow/include/data/stage/"
-#file_ocorrencia_teste = "/ocorrencia.csv"
-
 def file_downloads(url, raw_path):
     print("Inicio do processamento dos downloads")
     # Criando uma lista com os nomes dos arquivos para download
