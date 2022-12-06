@@ -1,0 +1,11 @@
+{
+"url_cenipa": "https://dedalo.sti.fab.mil.br/dadosabertos/",
+"raw_path": "/airflow-projeto-cenipa/include/data/raw/",
+"stage_path": "/airflow-projeto-cenipa/include/data/stage/",
+"consumer_path": "/airflow-projeto-cenipa/include/data/consumer/",
+"file_oc": "ocorrencia.csv",
+"file_ocTipo": "ocorrencia_tipo.csv",
+"file_ae": "aeronave.csv",
+"file_fat": "fator_contribuinte.csv",
+"file_rec": "recomendacao.csv"
+}
